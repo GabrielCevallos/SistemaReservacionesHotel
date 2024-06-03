@@ -1,14 +1,14 @@
 from django.db import models
-from datetime import timedelta
+from datetime import datetime, time, timedelta
 
-# Create your models here.
+
 class Hotel(models.Model):
     nombre = models.CharField(max_length=50)
     direccion = models.CharField(max_length=50)
 
-
     def __str__(self):
         return self.nombre
+
 
 class Servicio(models.Model):
     tipoServicio = models.CharField(max_length=50)
@@ -19,9 +19,18 @@ class Servicio(models.Model):
                               on_delete=models.CASCADE,
                               related_name='servicio_list')
 
-
     def __str__(self):
         return self.tipoServicio
+
+
+start_time = time(0, 0, 0)
+end_time = time(23, 59, 59)
+
+today = datetime.today()
+start_datetime = datetime.combine(today, start_time)
+end_datetime = datetime.combine(today, end_time)
+
+duration = end_datetime - start_datetime
 
 class Paquete(models.Model):
     nombre = models.CharField(max_length=50)
@@ -36,4 +45,3 @@ class Paquete(models.Model):
 
     def __str__(self):
         return self.nombre
-
