@@ -70,7 +70,7 @@ class Habitacion(models.Model):
     def __str__(self):
         return f'{self.numeroHabitacion} - {self.hotel.nombre}'
 
-<<<<<<< HEAD
+
 class ReservaHabitacion(models.Model):
     fechaInicio = models.DateField()
     fechaFin = models.DateField()
@@ -97,7 +97,7 @@ class Pago(models.Model):
 
     def __str__(self):
         return f'{self.monto} - {self.reserva.habitacion.numeroHabitacion}'
-=======
+
 class Historial(models.Model):
     historial_reservas = models.CharField(max_length=255)
     historial_pagos = models.CharField(max_length=255)
@@ -105,4 +105,4 @@ class Historial(models.Model):
 
     def __str__(self):
         return f'Historial {self.id}'
->>>>>>> 29670fc216b922d54680b3207398e8a14ddd5015
+
