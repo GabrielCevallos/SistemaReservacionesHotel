@@ -4,11 +4,11 @@ Usuario: Pancho
 Contrasena:123
 
 Integrantes:
-. Gabriel Cevallos
-. Nathaly Camacho
-. Jimmy Ontaneda
-. Ariana Sarango
-. Francisco Jaramillo
+Gabriel Cevallos
+Nathaly Camacho
+Jimmy Ontaneda
+Ariana Sarango
+Francisco Jaramillo
 
 Ciclo: Segundo
 
