@@ -69,3 +69,30 @@ class Habitacion(models.Model):
 
     def __str__(self):
         return f'{self.numeroHabitacion} - {self.hotel.nombre}'
+
+class ReservaHabitacion(models.Model):
+    fechaInicio = models.DateField()
+    fechaFin = models.DateField()
+    horaInicio = models.TimeField()
+    horaFin = models.TimeField()
+    cantidadPersonas = models.PositiveIntegerField()
+    habitacion = models.ForeignKey(Habitacion,
+                                   on_delete=models.CASCADE,
+                                   related_name='reserva_list')
+    paquete = models.ForeignKey(Paquete,
+                                on_delete=models.CASCADE,
+                                related_name='reserva_list')
+
+    def __str__(self):
+        return f'{self.habitacion.numeroHabitacion} - {self.habitacion.hotel.nombre}'
+
+class Pago(models.Model):
+    fecha = models.DateField()
+    metodoPago = models.CharField(max_length=50)
+    monto = models.PositiveIntegerField()
+    reserva = models.ForeignKey(ReservaHabitacion,
+                                on_delete=models.CASCADE,
+                                related_name='pago_list')
+
+    def __str__(self):
+        return f'{self.monto} - {self.reserva.habitacion.numeroHabitacion}'
