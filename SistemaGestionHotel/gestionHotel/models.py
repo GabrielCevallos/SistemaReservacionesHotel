@@ -69,3 +69,11 @@ class Habitacion(models.Model):
 
     def __str__(self):
         return f'{self.numeroHabitacion} - {self.hotel.nombre}'
+
+class Historial(models.Model):
+    historial_reservas = models.CharField(max_length=255)
+    historial_pagos = models.CharField(max_length=255)
+    expediente = models.CharField(max_length=255)
+
+    def __str__(self):
+        return f'Historial {self.id}'
