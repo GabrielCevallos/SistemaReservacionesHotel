@@ -18,8 +18,6 @@ Nuestro hotel ofrece cómodas habitaciones, variados servicios adicionales y paq
 
 # Estructura del Proyecto
 
-# Estructura del Proyecto
-
 1. **Contenido**: Carpeta principal del proyecto.
   - **Servicio**: Módulo para la gestión de servicios del hotel.
   - **Paquete**: Módulo para la gestión de paquetes especiales.
@@ -41,6 +39,14 @@ Nuestro hotel ofrece cómodas habitaciones, variados servicios adicionales y paq
     - **OfertaPaquete**: Submódulo para la gestión de ofertas de paquetes.
     - **OfertaHabitacion**: Submódulo para la gestión de ofertas de habitaciones.
 
+# Ejecutar Programa
 
+Para comenzar, ve a la terminal y navega hasta la carpeta donde deseas clonar el repositorio, luego copia este código:
 
+git clone https://github.com/GabrielCevallos/SistemaReservacionesHotel.git 
 
+Una vez clonado el repositorio, sigue los pasos en el IDE que se te facilite.
+
+- **Pycharm**:
+
+1. Abre la carpeta clonada
