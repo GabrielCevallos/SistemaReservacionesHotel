@@ -1,14 +1,14 @@
-# SistemaReservacionesHotel
-Acceso
-Usuario: Pancho
-Contraseña:123
+# Sistema Reservaciones Hotel
+**Acceso Usuario:** Pancho
 
-Integrantes:
+**Contraseña:** 123
+
+**Integrantes:**
 Gabriel Cevallos, Nathaly Camacho, Francisco Jaramillo, Jimmy Ontaneda, Ariana Sarango
 
-Ciclo: Segundo
+**Ciclo:** Segundo "A"
 
-Diagrama UML:
+**Diagrama UML:**
 
 ![image](https://github.com/GabrielCevallos/SistemaReservacionesHotel/assets/166523819/b228f6c6-e0d3-42fd-b716-f16eab245022)
 
@@ -64,7 +64,9 @@ Una vez clonado el repositorio, sigue los pasos en el IDE que se te facilite.
 - **Visual Studio Code**:
 
 1. Abre la carpeta clonada.
-2. 
+2. Configura las extensiones necesarias.
+3. Instala las dependencias que necesites.
 
-
-
+    
+    pip install <nombre_del_paquete>
+4. 
