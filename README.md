@@ -55,6 +55,7 @@ Una vez clonado el repositorio, sigue los pasos en el IDE que se te facilite.
     
     pip install django
 
+
 3. Para acceder a nuestra página web, ve a la terminal de Pycharm y ejecuta el siguiente comando:
 
 
@@ -69,4 +70,5 @@ Una vez clonado el repositorio, sigue los pasos en el IDE que se te facilite.
 
     
     pip install <nombre_del_paquete>
+
 4. 
