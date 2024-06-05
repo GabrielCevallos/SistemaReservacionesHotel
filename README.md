@@ -47,28 +47,23 @@ Para comenzar, ve a la terminal y navega hasta la carpeta donde deseas clonar el
 
 Una vez clonado el repositorio, sigue los pasos en el IDE que se te facilite.
 
-- **Pycharm**:
+# Pycharm:
 
-1. Abre la carpeta clonada.
+1. Abre la carpeta clonada. 
 2. En el caso de que no tengas instalado Django, ejecuta el siguiente comando:
 
-    
-    pip install django
+            pip install django
 
 
 3. Para acceder a nuestra página web, ve a la terminal de Pycharm y ejecuta el siguiente comando:
 
 
-    python manage.py runserver
+        python manage.py runserver
 
 
-- **Visual Studio Code**:
+# Visual Studio Code:
 
 1. Abre la carpeta clonada.
-2. Configura las extensiones necesarias.
-3. Instala las dependencias que necesites.
+2. En "Control de código fuente" se visualizan las ramas.
+3. Para ejecutar el programa, en la barra superior ir a "Run", luego ve a "Start Debugging" o presiona "F5".
 
-    
-    pip install <nombre_del_paquete>
-
-4. 
