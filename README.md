@@ -33,11 +33,13 @@ Nuestro hotel ofrece cómodas habitaciones, variados servicios adicionales y paq
   - **Persona**: Clase base.
     - **Cliente**: Subclase de Persona para clientes del hotel.
     - **Recepcionista**: Subclase de Persona para recepcionistas del hotel.
+    
 5. **Composiciones**
   - **OfertaHotel**: Módulo para la gestión de ofertas del hotel.
     - **OfertaServicios**: Submódulo para la gestión de ofertas de servicios.
     - **OfertaPaquete**: Submódulo para la gestión de ofertas de paquetes.
     - **OfertaHabitacion**: Submódulo para la gestión de ofertas de habitaciones.
+
 
 # Ejecutar Programa
 
@@ -47,16 +49,20 @@ Para comenzar, ve a la terminal y navega hasta la carpeta donde deseas clonar el
 
 Una vez clonado el repositorio, sigue los pasos en el IDE que se te facilite.
 
+
 # Pycharm:
 
 1. Abre la carpeta clonada. 
+
 2. En el caso de que no tengas instalado Django, ejecuta el siguiente comando:
 
             pip install django
 
+3. Y mediante el siguiente comando, se puede actualizar Django:
+
+            pip install --upgrade pip
 
 3. Para acceder a nuestra página web, ve a la terminal de Pycharm y ejecuta el siguiente comando:
-
 
             python manage.py runserver
 
